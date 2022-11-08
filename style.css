@@ -1,0 +1,137 @@
+#calculator{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9 ;
+}
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: whitesmoke;
+    border-bottom: 1px solid grey;
+}
+#title{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+    font-size: x-large;
+}
+#display{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%);
+    width: 80%;
+    height: 20%;
+    text-align: right;
+    font-size: 4.5em;
+    border: 1px #f9f9f9 solid;
+    border-radius: 20px;
+    background-color: #f9f9f9 ;
+}
+#things{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+
+}
+#delete{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+    width: 40px;
+    height: 40px;
+}
+#keys{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+}
+#numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    border-right: 0.5px grey solid ;
+}
+.numbers{
+    width: 27%;
+    height: 60px;
+    border: 0.1px #f5f5f5 solid;
+    border-radius: 50px;
+    padding: 2px;
+    background-color: #f5f5f5;
+    font-size: large;
+    box-shadow: 0 5px 2px #b0b0b0;
+}
+#fnc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;}
+.fnc{
+    flex-basis: 40%;
+    height: 60px;
+    border: 0.1px #D8F2FF  solid;
+    border-radius: 50px;
+    padding: 2px;
+    background-color: #D8F2FF;
+    font-size: large;
+    box-shadow: 0 5px 2px #B9EBFF;
+}
+.fnc:hover{
+    opacity: 0.5;
+}
+#equalButton{
+    background-color: #FF5F1F  ;
+    border: 0.1px #FF5F1F  solid;
+    box-shadow: 0 5px 2px #DB4914;
+    color: #FFFFFF;
+}
+.numbers:hover{
+    opacity: 0.5;
+}
+#dark{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 5%;
+    width: 80px;
+    height: 40px;
+    border: black 1px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+#circle{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+    border: grey 2px solid;
+    border-radius: 20px;
+    background-color: black;
+}
